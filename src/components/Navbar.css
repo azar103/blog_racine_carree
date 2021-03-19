@@ -1,0 +1,76 @@
+.nav {
+  background-color: cadetblue;
+  padding: 10px 0;
+}
+.nav .nav-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav .nav-content .nav-left {
+  display: flex;
+}
+.nav .nav-content .nav-left .nav-logo {
+  width: 50px;
+  height: 50px;
+}
+.nav .nav-content .nav-left .nav-search-input {
+  width: 200px;
+  border: none;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 14px;
+  padding: 4px 5px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.nav-title {
+  color: #e8e8e8;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-left: 4px;
+}
+.nav-btn {
+  width: 120px;
+  background: none;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 7px 37px 0 0;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-right .nav-list .nav-list-item {
+  display: flex;
+  margin-right: 10px;
+}
+.nav-right .nav-list .nav-list-item .icon {
+  color: #e8e8e8;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.nav-right .nav-list .nav-list-item a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 3px 5px 4px;
+}
+.nav-right .nav-list .nav-list-item a::after {
+  content: "";
+  display: block;
+  background: #e81e63;
+  width: 0;
+  height: 4px;
+  transition: width 0.5s;
+}
+.nav-right .nav-list .nav-list-item a:hover::after,
+.nav-right .nav-list .nav-list-item.active a::after {
+  width: 100%;
+}

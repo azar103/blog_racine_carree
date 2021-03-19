@@ -1,0 +1,36 @@
+.slide .slide-container {
+  height: 300px;
+  background: #5f9ea0;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.slide .slide-container .post-slide-title {
+  color: #fff;
+  font-size: 20px;
+}
+
+.slide .slide-container .post-slide-img {
+  width: 170px;
+  height: 240px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.slide .slide-container .slide-bollets {
+  list-style: none;
+  margin: auto;
+  padding: 3px 5px 0 4px;
+}
+
+.slide .slide-container .slide-bollets li {
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  background: #e9e9e9;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}

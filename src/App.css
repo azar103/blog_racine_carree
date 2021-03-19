@@ -1,0 +1,11 @@
+.container {
+  width: 75%;
+  margin: auto;
+}
+.section-title {
+  color: #e91e63;
+}
+
+.pd-y {
+  padding: 50px 0;
+}
