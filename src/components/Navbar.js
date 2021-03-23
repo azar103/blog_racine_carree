@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="nav-content">
           <div className="nav-left">
             <img className="nav-logo" src={logo} alt="logo" />
-            <h2 className="nav-title">raçine caree blog</h2>
+            <h2 className="nav-title">bookStore</h2>
             <input
               className="nav-search-input"
               type="text"

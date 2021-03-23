@@ -5,7 +5,7 @@ const PostsSlide = () => {
   return (
     <div className="slide">
       <div className="container">
-        <h2 className="section-title">Top Posts</h2>
+        <h2 className="section-title">Top Books</h2>
         <div className="slide-container">
           <span className="post-slide-title">
             Incididunt exercitation cillum do velit qui
