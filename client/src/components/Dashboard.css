@@ -1,0 +1,31 @@
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.dashboard-header button {
+  background: cadetblue;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.dashboard-header h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.dashboard-content table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.dashboard-content table td,
+.dashboard-content table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}

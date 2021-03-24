@@ -1,0 +1,22 @@
+.pagination {
+  list-style: none;
+  margin: auto;
+  width: 100px;
+  margin: 80px auto;
+}
+
+.pagination li {
+  display: inline-block;
+}
+.pagination li a {
+  text-decoration: none;
+  background: red;
+  padding: 10px 15px;
+  background: #f99f9b;
+  color: #fff;
+}
+
+.pagination li a:hover {
+  background: #79b8ad;
+  cursor: pointer;
+}
